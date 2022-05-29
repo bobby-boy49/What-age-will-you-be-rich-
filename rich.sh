@@ -6,9 +6,13 @@ echo "What is your name?"
 
 read name
 
+clear
+
 echo "Age?"
 
 read Age
+
+clear
 
 time=$(date)
 
@@ -70,6 +74,10 @@ echo "[*************************.]"
 sleep 1
 echo "[**************************]"
 
-rich=$((($RANDOM % 40) + $Age))
+sleep 10
 
-echo "You will be Rich at $rich."
+clear
+
+rich=$((($RANDOM % 120) + $Age))
+
+echo "You will be Rich at $rich.
