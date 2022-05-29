@@ -106,6 +106,6 @@ sleep 10
 
 clear
 
-rich=$((($RANDOM % 120) + $Age))
+rich=$((($RANDOM % 121) + $Age))
 
 echo "You will be Rich at $rich."
