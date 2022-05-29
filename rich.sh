@@ -80,4 +80,4 @@ clear
 
 rich=$((($RANDOM % 120) + $Age))
 
-echo "You will be Rich at $rich.
+echo "You will be Rich at $rich."
